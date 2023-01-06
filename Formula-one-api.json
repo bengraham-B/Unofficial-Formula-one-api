@@ -1,28 +1,40 @@
 [
     {
-        "teamName": "Redbull Racing Oracle",
-        "teamPrincipal": {
-            "name": "Christian Horner",
-            "country": "Great Britain"
+        "TeamName": "Redbull Racing Oracle",
+        "Headquaters": "",
+        "CountryOfOrgin": "",
+        "TeamPrincipal": {
+            "Name": "Christian Horner",
+            "CountryOfBirth": "Great Britain"
         },
-        "drivers" : {
-            "no.1": {
-                "name":"Max Verstappen",
+        "Drivers" : {
+            "No.1": {
+                "Name":"Max Verstappen",
                 "RaceNumber": "1",
-                "country": "",
-                "wins": ""
+                "CountryOfBirth": "Belgium",
+                "RaceHistory": {
+                    "WorldChampionships": {
+                        "first": "2021",
+                        "second": "2022"
+                    },
+                    "TotalPoints": "",
+                    "TotalPodiums":"",
+                    "TotalFastestLaps": "",
+                    "TotalPolePositions": "",
+                    "TotalWins": ""
+                }
             },
             "no.2" : {
-                "name":"Sergio Perez",
+                "Name":"Sergio Perez",
                 "RaceNumber": "11",
-                "country": "Mexico",
-                "wins": ""
+                "Country": "Mexico",
+                "Wins": ""
             },
             "no.3" : {
-                "name":"Daniel Ricardo",
+                "Name":"Daniel Ricardo",
                 "RaceNumber": "3",
-                "country": "Austrilia",
-                "wins": ""
+                "Country": "Austrilia",
+                "Wins": ""
             }
         }
     }
